@@ -1,0 +1,41 @@
+.logo-cabecalho, .logo-rodape {
+    width: 50px;
+    border-radius: 100%;
+    transition: all .5s ease-in-out;
+}
+
+.logo-cabecalho:hover {
+    transform: scale(1.2);
+}
+
+.categorias {
+    text-transform: uppercase;
+}
+
+.categorias:hover {
+    color: #e6c94a!important;
+}
+
+.footer {
+	background-color: #161616f1;
+	padding: 40px 0;
+	text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.copyright {
+    color: #fdfdfd;
+	font-size: 13px;
+	margin: 20px 0 0 0;
+}  
+
+.logo {
+    width: 40px;
+    border-radius: 100%;
+    margin: 10px 5px;
+    transition: all .5s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}

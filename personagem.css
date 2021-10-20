@@ -1,0 +1,150 @@
+.fundo {
+    background-image: url(./fundo.jpeg);
+}
+
+.secao {
+    background-color: #000000d0;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+}
+
+.titulo {
+    color: #fdfdfd;
+    font-family: 'Montserrat', sans-serif;
+    margin: 40px 0 5px 0;
+    text-align: center;
+    text-shadow: 1.5px 1.5px #ffc6096e;
+}
+
+.paragrafo {
+    color: #fdfdfd;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    padding: 0 15px 0 30px;
+    font-size: 18px;
+}
+
+.subtitulo {
+    color: #fdfdfd;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-shadow: 1.5px 1.5px #ffc6096e;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-armaduras {
+    margin: 0 0 0 60px;
+    color: #ff4b4b;
+    transition: 0.2s;
+}
+
+.link-armaduras:hover {
+    color: #ff0000;
+    text-decoration: none;
+    transform: scale(1.075);
+}
+
+/*---imagens---*/
+
+.imagens {
+    transition: 0.8s;
+}
+
+.imagens:hover {
+	opacity: .5;
+}
+
+@media screen and (min-width: 0) {
+    .secao {
+        margin: 40px 5px 0 5px;
+    }
+    .secao:first-child {
+        margin: 110px 5px 10px 5px;
+    }
+    .secao:last-child {
+        margin: 40px 5px 80px 5px;
+    }
+    .pedaco {
+        display: flex;
+        flex-direction: column;
+    }
+    .imagem1 {
+        border-radius: 10px;
+        width: 240px;
+        margin: 10px 30px 30px 115px;
+    }
+    .imagem2 {
+        border-radius: 10px;
+        margin: 10px 30px 30px 115px;
+        width: 250px;
+    }   
+    .imagem3 {
+        border-radius: 10px;
+        margin: 10px 30px 30px 115px;
+        width: 250px;
+    }    
+    .imagem4 {
+        border-radius: 10px;
+        margin: 10px 30px 30px 115px;
+        width: 250px;
+    }   
+    .imagem5 {
+        border-radius: 10px;
+        height: 250px;
+        margin: 10px 30px 10px 30px;
+    }
+    .link-armaduras {
+        margin: 0 0 15px 120px;
+    }   
+}
+
+@media screen and (min-width:768px) {
+    .secao {
+        margin: 40px 100px 0 100px;
+    }
+    .secao:first-child {
+        margin: 110px 100px 10px 100px;
+    }
+    .secao:last-child {
+        margin: 40px 100px 80px 100px;
+    }
+    .pedaco {
+        display: flex;
+        flex-direction: row;
+    }
+    .imagem1 {
+        border-radius: 10px;
+        height: 280px;
+        margin: 40px 30px 30px 0;
+    }   
+    .imagem2 {
+        border-radius: 10px;
+        height: 250px;
+        margin: 90px 30px 30px 0;
+        width: 250px;
+    }   
+    .imagem3 {
+        border-radius: 10px;
+        height: 170px;
+        margin: 60px 30px 30px 0;
+        width: 250px;
+    }  
+    .imagem4 {
+        border-radius: 10px;
+        height: 250px;
+        margin: 50px 30px 30px 0;
+        width: 250px;
+    }   
+    .imagem5 {
+        border-radius: 10px;
+        height: 200px;
+        margin: 110px 30px 30px 0;
+    }
+    .link-armaduras {
+        margin: 0 0 0 60px;
+    }   
+}

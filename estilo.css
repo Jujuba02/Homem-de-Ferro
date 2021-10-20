@@ -1,0 +1,52 @@
+.degrade {
+    background: #000000;
+}
+
+.homem-ferro {
+    float: left;
+    object-fit: cover;
+    object-position: 80% 50%;
+    width: 40%;    
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+}
+
+.frase1 {
+    color: #fdfdfd;
+    font-size: 25px;
+    font-weight: 470;
+    text-shadow: 2px 2px #fdfdfd5b;
+}
+
+.frase2 {
+    color: #fdfdfdc7;
+    font-size: 17px;
+    font-weight: 100;
+    text-shadow: 1px 1px #fdfdfd3f;
+}
+
+
+@media screen and (min-width: 0) {
+    .homem-ferro {
+        height: 500px;
+    }
+    
+    .frases {
+        font-family: 'Inconsolata', monospace;
+        margin: 90px 0 0 15px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .homem-ferro {
+        height: 100vh;
+    }
+    
+    .frases {
+        font-family: 'Inconsolata', monospace;
+        margin: 260px 170px 200px 170px;
+    }
+}
